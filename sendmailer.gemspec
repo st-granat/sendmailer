@@ -4,6 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'sendmailer/version'
 
 Gem::Specification.new do |gem|
+  gem.license       = "MIT"
   gem.name          = "sendmailer"
   gem.version       = Sendmailer::VERSION
   gem.authors       = ["Andrey"]
