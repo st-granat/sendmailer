@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["railscode@gmail.com"]
   gem.description   = "Send Email from Rails 3 App with Sendmail server (Such as Exim4)"
   gem.summary       = "Send Email from Rails 3 App with Sendmail server (Such as Exim4)"
-  gem.homepage      = "https://github.com/vav/sendmailer"
+  gem.homepage      = "https://github.com/st-granat/sendmailer"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
